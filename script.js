@@ -35,7 +35,6 @@ $(".contentWrap").css({"padding-top":"20px"}); // replace with blank space
 
 $("#bottom").remove(); // remove explanation text before footer
 
-$("#mainimg img").css({"width":"93%","max-width":"100%"}); //increase size of main image
 $("#mainimg a").remove(); //remove javascript video button
 if ($("#mainimg").html()==""){
 	$("#mainimg").remove(); 
