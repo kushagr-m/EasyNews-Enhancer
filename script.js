@@ -2,12 +2,14 @@
 // @name         NHK Easy News Enhancer
 // @namespace    http://kushagr.me/
 // @version      0.2
-// @description  Hides furigana on easy news article using a button toggle.
+// @description  Userscript to enhance readability and usability on NHK Easy News.
 // @author       Kushagr M
 // @include      http://www3.nhk.or.jp/news/easy/*
-// @require  		 http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
-// @grant 			 none
+// @require  	 http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
+// @grant 	 none
 // ==/UserScript==
+
+var githubRepo = "https://github.com/theKKCD/EasyNews-Enhancer";
 
 // PAGE CLEANUP
 
@@ -31,7 +33,7 @@ $("#survey").remove(); // remove all survey content at bottom of page
 $("#enq_answer_disp").remove();
 $("#enq_ansbak").remove();
 
-$("#footer").prepend('<p class="copyright">NHK Easy News Enhancer, by Kushagr M (theKKCD). <a href="https://github.com/theKKCD/Easy-News-Furigana-Toggle">Contribute on Github.</a></p>');
+$("#footer").prepend('<p class="copyright">NHK Easy News Enhancer, by Kushagr M (theKKCD). <a href="' + githubRepo + '">Contribute on Github.</a></p>');
 
 // FURIGANA TOGGLE BUTTON
 
