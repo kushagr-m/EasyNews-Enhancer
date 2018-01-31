@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         NHK Easy News Enhancer
 // @namespace    http://kushagr.me/
-// @version      0.2
+// @version      0.7
 // @description  Userscript to enhance readability and usability on NHK Easy News.
 // @author       Kushagr M
 // @include      http://www3.nhk.or.jp/news/easy/*
@@ -10,6 +10,20 @@
 // ==/UserScript==
 
 var githubRepo = "https://github.com/theKKCD/EasyNews-Enhancer";
+
+
+var labelHide = 'Hide ふりがな';
+var labelShow = 'Show ふりがな';
+
+var furiVisible = true;
+
+if (window.location.pathname.indexOf("/news/easy/k")==0) { 
+	$("#soundkana").prepend('<button type="button" id="furigToggleButton" style="display:block;height:46px;width:213px;margin-left:30px;border-radius:9px;background-color:#FF921D;color:white;font-size:16px;font-family:Noto Sans CJK JP">' + labelHide + '</button>');
+} else {
+	$("#content").prepend('<button type="button" id="furigToggleButton" style="margin:auto;width:90%;border-radius:5px;display:block;height:46px;margin-bottom:8px;font-size:16px;background-color:#FF921D;color:white;font-family:Noto Sans CJK JP">' + labelHide + '</button>');
+}
+
+$("body").css({"font-family":"Noto Sans CJK JP"}); // replace font
 
 // PAGE CLEANUP
 
@@ -37,32 +51,19 @@ $("#footer").prepend('<p class="copyright">NHK Easy News Enhancer, by Kushagr M 
 
 // FURIGANA TOGGLE BUTTON
 
-var url = window.location.pathname;
-
-var labelHide = '📕 Hide ふりがな';
-var labelShow = '📖 Show ふりがな';
-
-var furiVisible = true;
-
-var btnColour = '#FF921D';
-
 function furigHide(){ 
 	if (furiVisible == true) {
   	$("rt").css({ color: "transparent" });
 		$('#furigToggleButton').text(labelShow);
     furiVisible = false;
+    
+    
   } else {
   	$("rt").css({ color: "#333333" });
 		$('#furigToggleButton').text(labelHide);
     furiVisible = true;
+    
   }
-}
-
-if (window.location.pathname.indexOf("/news/easy/k")==0) { 
-	$("#soundkana").prepend('<button type="button" id="furigToggleButton">' + labelHide + '</button>');
-  $("#furigToggleButton").css({"display":"block","height":"46px","width":"213px","margin-left":"30px","border-radius":"9px","background-color":"#FF921D","color":"white","font-size":"16px"});
-} else {
-	$("#content").prepend('<button type="button" id="furigToggleButton" style="width:100%;display:block;height:50px;margin-bottom:8px;color:#333;font-size:16px;">' + labelHide + '</button>');
 }
 
 document.getElementById("furigToggleButton").addEventListener("click", furigHide);
