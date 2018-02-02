@@ -5,11 +5,18 @@ Userscript to enhance usability and readability of NHK News Web Easy.
 - [x] Toggle furigana with an on-screen button! (reduce reliance on furigana and learn Kanji)
 - [x] Reduce clutter and extra text from website (superfluous footer, header, etc.)
 - [x] Change to a custom font to improve legibility (Noto Sans CJK JP Regular)
+- [x] Speed up loading
 
-If there are any errors/unexpected behaviour, please open an issue or make a PR.
+## Install Instructions
+NHK Easy News Enhancer is a **userscript**.
+To install it, you will need a *userscript manager*. 
 
-### How to install
-1. Install [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) (for Firefox) or [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (for Chrome) (or any other userscript manager.)
-2. [Download and install the script](https://raw.githubusercontent.com/theKKCD/EasyNews-Enhancer/master/EasyNews-Enhancer.user.js). There should be a popup.
-3. Download and install [Noto Sans CJK JP Regular](https://github.com/theKKCD/EasyNews-Enhancer/raw/master/NotoSansCJKjp-Regular.otf) to use the custom font.
-3. Go to [NHK News Web Easy](http://www3.nhk.or.jp/news/easy/index.html) to use.
+I recommend Violentmonkey ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Chrome](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)).
+
+### Once you have a userscript manager:
+1. [**Get the script**](https://raw.githubusercontent.com/theKKCD/EasyNews-Enhancer/master/EasyNews-Enhancer.user.js). There should be a page asking you whether or not to install the script. Hit 'install' or 'OK'.
+2. **Install [Noto Sans CJK JP Regular](https://github.com/theKKCD/EasyNews-Enhancer/raw/master/NotoSansCJKjp-Regular.otf)**. This is the custom font used for text rendering.
+
+Go to [NHK News Web Easy](http://www3.nhk.or.jp/news/easy/index.html) to use the script.
+
+*If you find any errors or bugs, please open an issue.*
