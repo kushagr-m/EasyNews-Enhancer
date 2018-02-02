@@ -7,7 +7,7 @@
 // @include	http://www3.nhk.or.jp/news/easy/*
 // @require	http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
 // @grant	none
-// @downloadURL	https://raw.githubusercontent.com/theKKCD/EasyNews-Enhancer/master/script.js
+// @downloadURL	https://raw.githubusercontent.com/theKKCD/EasyNews-Enhancer/master/EasyNews-Enhancer.user.js
 // ==/UserScript==
 
 var githubRepo = "https://github.com/theKKCD/EasyNews-Enhancer";
