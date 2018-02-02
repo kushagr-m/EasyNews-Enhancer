@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         NHK Easy News Enhancer
-// @namespace    http://kushagr.me/
+// @namespace    https://github.com/theKKCD/EasyNews-Enhancer
 // @version      0.7
 // @description  Userscript to enhance readability and usability on NHK Easy News.
 // @author       Kushagr M
