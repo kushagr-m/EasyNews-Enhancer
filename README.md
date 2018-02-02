@@ -2,9 +2,9 @@
 Userscript to enhance readability, usability and general cohesion on NHK Easy News.
 
 #### Features
-- [x] Toggle furigana with an on-screen button! (reduce reliance on furigana and learn Kanji)
-- [x] Replaces flash audio with HTML5 audio sources. (Audio only, due to site limitations)
-- [x] Clean up, reduce clutter and extra text from website (superfluous footer, header, etc.), making it easier to use
+- [x] Adds a button to show/hide furigana at will! (reduce reliance on furigana and learn Kanji)
+- [x] Replaces flash audio with cleaner and more lightweight HTML5 audio.
+- [x] Clean up, reduce clutter and extra text from website (superfluous footer, header, etc.), to reduce distractions while reading.
 - [x] (Optional) Change to a custom font to improve legibility (Noto Sans CJK JP Regular)
 - [x] Automatically updates when new features come out!
 - [x] Lightweight and fast!
