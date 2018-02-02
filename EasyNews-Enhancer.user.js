@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name	NHK Easy News Enhancer
 // @namespace	https://github.com/theKKCD/EasyNews-Enhancer
-// @version	0.7
+// @version	0.9
 // @description	Userscript to enhance readability and usability on NHK Easy News.
 // @author	Kushagr M (theKKCD)
 // @include	http://www3.nhk.or.jp/news/easy/*
 // @require	http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
-// @compatible	All
 // @grant	none
 // @downloadURL	https://raw.githubusercontent.com/theKKCD/EasyNews-Enhancer/master/EasyNews-Enhancer.user.js
 // ==/UserScript==
