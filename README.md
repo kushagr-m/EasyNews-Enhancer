@@ -1,5 +1,5 @@
 # NHK Easy News Enhancer 
-Userscript that enhances the usability, readability and UX of NHK Easy News..
+Userscript that enhances the usability, readability and UX of NHK Easy News.
 
 #### Features
 - [x] Toggle furigana with an on-screen button! (reduce reliance on furigana and learn Kanji)
