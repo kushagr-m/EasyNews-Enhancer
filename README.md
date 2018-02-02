@@ -10,6 +10,6 @@ If there are any errors/unexpected behaviour, please open an issue or make a PR.
 
 ### How to install
 1. Install [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) (for Firefox) or [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (for Chrome) (or any other userscript manager.)
-2. Visit the [raw script link](https://raw.githubusercontent.com/theKKCD/EasyNews-Enhancer/master/script.js) to install. There should be a popup.
+2. [Download and install the script](https://raw.githubusercontent.com/theKKCD/EasyNews-Enhancer/master/EasyNews-Enhancer.user.js). There should be a popup.
 3. Download and install [Noto Sans CJK JP Regular](https://github.com/theKKCD/EasyNews-Enhancer/raw/master/NotoSansCJKjp-Regular.otf) to use the custom font.
 3. Go to [NHK News Web Easy](http://www3.nhk.or.jp/news/easy/index.html) to use.
