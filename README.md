@@ -15,7 +15,7 @@ I recommend Violentmonkey ([Firefox](https://addons.mozilla.org/en-US/firefox/ad
 
 ### Once you have a userscript manager:
 1. [**Get the script**](https://raw.githubusercontent.com/theKKCD/EasyNews-Enhancer/master/EasyNews-Enhancer.user.js). There should be a page asking you whether or not to install the script. Hit 'install' or 'OK'.
-2. **Install [Noto Sans CJK JP Regular](https://github.com/theKKCD/EasyNews-Enhancer/raw/master/NotoSansCJKjp-Regular.otf)**. This is the custom font used for text rendering.
+2. **Install [Noto Sans CJK JP Regular](https://github.com/theKKCD/EasyNews-Enhancer/raw/master/Files/NotoSansCJKjp-Regular.otf)**. This is the custom font used for text rendering.
 
 Go to [NHK News Web Easy](http://www3.nhk.or.jp/news/easy/index.html) to use the script.
 
