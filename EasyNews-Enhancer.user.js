@@ -7,7 +7,7 @@
 // @include	http://www3.nhk.or.jp/news/easy/*
 // @require	http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
 // @grant	none
-// @icon 	https://github.com/theKKCD/EasyNews-Enhancer/raw/master/Files/icon.ico
+// @icon 	https://github.com/theKKCD/EasyNews-Enhancer/raw/master/Files/icon.png
 // @supportURL	https://github.com/theKKCD/EasyNews-Enhancer/issues
 // @updateURL	https://raw.githubusercontent.com/theKKCD/EasyNews-Enhancer/master/EasyNews-Enhancer.user.js
 // @downloadURL	https://raw.githubusercontent.com/theKKCD/EasyNews-Enhancer/master/EasyNews-Enhancer.user.js
