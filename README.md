@@ -1,12 +1,13 @@
 # NHK Easy News Enhancer 
-Userscript that enhances the usability, readability and UX of NHK Easy News.
+Userscript to enhance readability, usability and general cohesion on NHK Easy News.
 
 #### Features
 - [x] Toggle furigana with an on-screen button! (reduce reliance on furigana and learn Kanji)
-- [x] Have articles read to you in embedded HTML5 audio! Stream article sound. (replaced flash from the original website)
-- [x] Clean up, reduce clutter and extra text from website (superfluous footer, header, etc.)
+- [x] Replaces flash audio with HTML5 audio sources. (Audio only, due to site limitations)
+- [x] Clean up, reduce clutter and extra text from website (superfluous footer, header, etc.), making it easier to use
 - [x] (Optional) Change to a custom font to improve legibility (Noto Sans CJK JP Regular)
 - [x] Automatically updates when new features come out!
+- [x] Lightweight and fast!
 
 ## Install Instructions
 NHK Easy News Enhancer is a userscript and thus requires a userscript manager to run. If you have one already, skip step 0.
