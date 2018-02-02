@@ -1,12 +1,13 @@
 // ==UserScript==
-// @name         NHK Easy News Enhancer
-// @namespace    https://github.com/theKKCD/EasyNews-Enhancer
-// @version      0.7
-// @description  Userscript to enhance readability and usability on NHK Easy News.
-// @author       Kushagr M
-// @include      http://www3.nhk.or.jp/news/easy/*
-// @require  	 http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
-// @grant 	 none
+// @name	NHK Easy News Enhancer
+// @namespace	https://github.com/theKKCD/EasyNews-Enhancer
+// @version	0.7
+// @description	Userscript to enhance readability and usability on NHK Easy News.
+// @author	Kushagr M
+// @include	http://www3.nhk.or.jp/news/easy/*
+// @require	http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
+// @grant	none
+// @downloadURL	https://raw.githubusercontent.com/theKKCD/EasyNews-Enhancer/master/script.js
 // ==/UserScript==
 
 var githubRepo = "https://github.com/theKKCD/EasyNews-Enhancer";
@@ -55,14 +56,17 @@ function furigHide(){
   	$("rt").css({ color: "transparent" });
 		$('#furigToggleButton').text(labelShow);
     furiVisible = false;
-    
-    
   } else {
   	$("rt").css({ color: "#333333" });
 		$('#furigToggleButton').text(labelHide);
     furiVisible = true;
-    
+   
   }
 }
 
 document.getElementById("furigToggleButton").addEventListener("click", furigHide);
+document.addEventListener("keypress", function(e){
+  if (e.keyCode == 70) {
+    furigHide();
+  }
+}, false);
