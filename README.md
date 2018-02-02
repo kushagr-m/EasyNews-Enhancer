@@ -8,10 +8,9 @@ Userscript to enhance usability and readability of NHK News Web Easy.
 - [x] Speed up loading
 
 ## Install Instructions
-NHK Easy News Enhancer is a **userscript**.
-To install it, you will need a *userscript manager*. 
+NHK Easy News Enhancer is a **userscript** and needs a userscript manager to run.
 
-I recommend Violentmonkey ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Chrome](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)).
+I recommend Violentmonkey ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Chrome](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)/[Opera](https://addons.opera.com/en/extensions/details/violent-monkey/)).
 
 ### Once you have a userscript manager:
 1. [**Get the script**](https://raw.githubusercontent.com/theKKCD/EasyNews-Enhancer/master/EasyNews-Enhancer.user.js). There should be a page asking you whether or not to install the script. Hit 'install' or 'OK'.
