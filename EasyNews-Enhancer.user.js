@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name	      NHK Easy News Enhancer
 // @namespace	  https://github.com/theKKCD/EasyNews-Enhancer
-// @version	    15
+// @version	    16
 // @description	Enhances the usability, readability and UX of NHK Easy News. Adds Furigana toggling, HTML5 audio and reduces clutter.
 // @author      Kushagr M (theKKCD)
 // @include	    http://www3.nhk.or.jp/news/easy/*
@@ -116,6 +116,9 @@ removeID('bottom');
 removeID('survey');
 removeID('enq_answer_disp');
 removeID('enq_ansbak');
+
+var elFoot = document.getElementById('footer');
+elFoot.style.height = "100px"; // fix footer height
 
 prependToId('footer','<p class="copyright" style="font-size:14px;margin-top:7px;padding-bottom:7px;"><a href="' + githubRepo + '">NHK Easy News Enhancer, by Kushagr M (theKKCD). Contribute/Report bugs on Github.</a></p>')
 
